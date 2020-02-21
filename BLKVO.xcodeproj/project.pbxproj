@@ -7,28 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		956156C523FE8AA5006A59F2 /* KVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956156C323FE8AA5006A59F2 /* KVOViewController.m */; };
+		956156C623FE8AA5006A59F2 /* KVOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956156C423FE8AA5006A59F2 /* KVOViewController.xib */; };
+		956156C923FE8B33006A59F2 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 956156C823FE8B33006A59F2 /* Person.m */; };
 		956888D323FC02C00079B5CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888D223FC02C00079B5CA /* AppDelegate.m */; };
-		956888D623FC02C00079B5CA /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888D523FC02C00079B5CA /* SceneDelegate.m */; };
-		956888D923FC02C00079B5CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888D823FC02C00079B5CA /* ViewController.m */; };
-		956888DC23FC02C00079B5CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956888DA23FC02C00079B5CA /* Main.storyboard */; };
 		956888DE23FC02C20079B5CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 956888DD23FC02C20079B5CA /* Assets.xcassets */; };
 		956888E123FC02C20079B5CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956888DF23FC02C20079B5CA /* LaunchScreen.storyboard */; };
 		956888E423FC02C20079B5CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888E323FC02C20079B5CA /* main.m */; };
+		956888ED23FC03970079B5CA /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888EB23FC03970079B5CA /* RootViewController.m */; };
+		956888EE23FC03970079B5CA /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 956888EC23FC03970079B5CA /* RootViewController.xib */; };
+		956888F223FC04A40079B5CA /* NSObject+BLKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888F023FC04A40079B5CA /* NSObject+BLKVO.m */; };
+		956888F523FC2C3B0079B5CA /* NSObject+BLKVOIMP.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888F423FC2C3B0079B5CA /* NSObject+BLKVOIMP.m */; };
+		956888FB23FC3C1D0079B5CA /* BLKVOInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 956888FA23FC3C1D0079B5CA /* BLKVOInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		956156C223FE8AA5006A59F2 /* KVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVOViewController.h; sourceTree = "<group>"; };
+		956156C323FE8AA5006A59F2 /* KVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOViewController.m; sourceTree = "<group>"; };
+		956156C423FE8AA5006A59F2 /* KVOViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KVOViewController.xib; sourceTree = "<group>"; };
+		956156C723FE8B33006A59F2 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		956156C823FE8B33006A59F2 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		956888CE23FC02C00079B5CA /* BLKVO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLKVO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		956888D123FC02C00079B5CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		956888D223FC02C00079B5CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		956888D423FC02C00079B5CA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		956888D523FC02C00079B5CA /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		956888D723FC02C00079B5CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		956888D823FC02C00079B5CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		956888DB23FC02C00079B5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		956888DD23FC02C20079B5CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		956888E023FC02C20079B5CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		956888E223FC02C20079B5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		956888E323FC02C20079B5CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		956888EA23FC03970079B5CA /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		956888EB23FC03970079B5CA /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		956888EC23FC03970079B5CA /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		956888F023FC04A40079B5CA /* NSObject+BLKVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BLKVO.m"; sourceTree = "<group>"; };
+		956888F123FC04A40079B5CA /* NSObject+BLKVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BLKVO.h"; sourceTree = "<group>"; };
+		956888F323FC2C3B0079B5CA /* NSObject+BLKVOIMP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+BLKVOIMP.h"; sourceTree = "<group>"; };
+		956888F423FC2C3B0079B5CA /* NSObject+BLKVOIMP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BLKVOIMP.m"; sourceTree = "<group>"; };
+		956888F923FC3C1D0079B5CA /* BLKVOInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLKVOInfo.h; sourceTree = "<group>"; };
+		956888FA23FC3C1D0079B5CA /* BLKVOInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLKVOInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +75,34 @@
 		956888D023FC02C00079B5CA /* BLKVO */ = {
 			isa = PBXGroup;
 			children = (
+				956888EF23FC04490079B5CA /* BLKVO */,
 				956888D123FC02C00079B5CA /* AppDelegate.h */,
 				956888D223FC02C00079B5CA /* AppDelegate.m */,
-				956888D423FC02C00079B5CA /* SceneDelegate.h */,
-				956888D523FC02C00079B5CA /* SceneDelegate.m */,
-				956888D723FC02C00079B5CA /* ViewController.h */,
-				956888D823FC02C00079B5CA /* ViewController.m */,
-				956888DA23FC02C00079B5CA /* Main.storyboard */,
 				956888DD23FC02C20079B5CA /* Assets.xcassets */,
 				956888DF23FC02C20079B5CA /* LaunchScreen.storyboard */,
 				956888E223FC02C20079B5CA /* Info.plist */,
 				956888E323FC02C20079B5CA /* main.m */,
+				956888EA23FC03970079B5CA /* RootViewController.h */,
+				956888EB23FC03970079B5CA /* RootViewController.m */,
+				956888EC23FC03970079B5CA /* RootViewController.xib */,
+				956156C223FE8AA5006A59F2 /* KVOViewController.h */,
+				956156C323FE8AA5006A59F2 /* KVOViewController.m */,
+				956156C423FE8AA5006A59F2 /* KVOViewController.xib */,
+				956156C723FE8B33006A59F2 /* Person.h */,
+				956156C823FE8B33006A59F2 /* Person.m */,
+			);
+			path = BLKVO;
+			sourceTree = "<group>";
+		};
+		956888EF23FC04490079B5CA /* BLKVO */ = {
+			isa = PBXGroup;
+			children = (
+				956888F123FC04A40079B5CA /* NSObject+BLKVO.h */,
+				956888F023FC04A40079B5CA /* NSObject+BLKVO.m */,
+				956888F323FC2C3B0079B5CA /* NSObject+BLKVOIMP.h */,
+				956888F423FC2C3B0079B5CA /* NSObject+BLKVOIMP.m */,
+				956888F923FC3C1D0079B5CA /* BLKVOInfo.h */,
+				956888FA23FC3C1D0079B5CA /* BLKVOInfo.m */,
 			);
 			path = BLKVO;
 			sourceTree = "<group>";
@@ -134,8 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				956888E123FC02C20079B5CA /* LaunchScreen.storyboard in Resources */,
+				956156C623FE8AA5006A59F2 /* KVOViewController.xib in Resources */,
 				956888DE23FC02C20079B5CA /* Assets.xcassets in Resources */,
-				956888DC23FC02C00079B5CA /* Main.storyboard in Resources */,
+				956888EE23FC03970079B5CA /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +178,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				956888D923FC02C00079B5CA /* ViewController.m in Sources */,
+				956888F223FC04A40079B5CA /* NSObject+BLKVO.m in Sources */,
 				956888D323FC02C00079B5CA /* AppDelegate.m in Sources */,
+				956888F523FC2C3B0079B5CA /* NSObject+BLKVOIMP.m in Sources */,
+				956888FB23FC3C1D0079B5CA /* BLKVOInfo.m in Sources */,
+				956156C523FE8AA5006A59F2 /* KVOViewController.m in Sources */,
+				956156C923FE8B33006A59F2 /* Person.m in Sources */,
 				956888E423FC02C20079B5CA /* main.m in Sources */,
-				956888D623FC02C00079B5CA /* SceneDelegate.m in Sources */,
+				956888ED23FC03970079B5CA /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		956888DA23FC02C00079B5CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				956888DB23FC02C00079B5CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		956888DF23FC02C20079B5CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,7 +318,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = BLKVO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +336,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				INFOPLIST_FILE = BLKVO/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

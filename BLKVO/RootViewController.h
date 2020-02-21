@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  RootViewController.h
 //  BLKVO
 //
 //  Created by Louis.B on 2020/2/18.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface RootViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

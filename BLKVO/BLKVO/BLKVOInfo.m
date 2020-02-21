@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  BLKVOInfo.m
 //  BLKVO
 //
 //  Created by Louis.B on 2020/2/18.
 //  Copyright © 2020 Louis.B. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BLKVOInfo.h"
 
-@interface ViewController : UIViewController
-
+@implementation BLKVOInfo
 
 @end
-
